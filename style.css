@@ -17,40 +17,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
+
         margin-top: 20px;
 
     }
-header .polkadod{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15%;
-    height: 100%;
-
-}
-header .polkadod .red {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #ff5500;
-    margin: 5px;
-
-}
-header .polkadod .yellow{
-    width:30px ;
-    height: 30px;
-    border-radius:50% ;
-    background-color: #ff5500;
-    margin: 5px;
-}
-header .polkadod .green{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #ff5500;
-    margin: 5px;
-}
 .navbar {
     width: 100%;
     height: 100%;
@@ -59,7 +29,8 @@ header .polkadod .green{
     align-items: center;
     list-style-type: none;
     margin-right: 50;
-    
+    background-color: maroon;
+
 }
 .navbar li{
     margin: 20px;
@@ -77,8 +48,8 @@ header .polkadod .green{
     align-items: center;
     padding-left: 0px;
     z-index: 1;
-    
-  
+
+
 
 }
 .jumbotron .judul{
@@ -100,7 +71,7 @@ header .polkadod .green{
     top: 80%;
     width: 100%;
     height: 200px;
-    background-color: #552526;
+    background-color: maroon;
     z-index: -1;
     border-top-left-radius: 40px;
 }
@@ -115,7 +86,7 @@ header .polkadod .green{
 }
 
 .about{
-    
+
 }
 
 .about .judul{
@@ -137,5 +108,7 @@ header .polkadod .green{
     justify-content: left;
     text-align: left;
 }
-
-
+.iki2{
+    width: 100%;
+    height: 100vh;
+}
